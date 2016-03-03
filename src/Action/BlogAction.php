@@ -40,7 +40,7 @@ final class BlogAction
     /**
      * Get controller
      *
-     * Called in route GET /
+     * Called in route GET /{id}
      */
     public function get($request, $response, $args)
     {
