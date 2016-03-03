@@ -1,0 +1,6 @@
+<form action="{{ path_for('blog_create') }}" method="post">
+	<input type="text" name="create_title" placeholder="Title...">
+	<textarea name="create_content" placeholder="Just type something already..." rows="10"></textarea>
+    <input type="hidden" name="_METHOD" value="PUT"/>
+    <input type="submit" value="Create"/>
+</form>

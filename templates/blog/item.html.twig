@@ -1,0 +1,12 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}{{ post.title|e }} | Awesome blog{% endblock %}
+
+{% block body %}
+    <p><a href="{{ path_for('blog_index') }}"><<< Back</a>
+    <article>
+        <h1>{{ post.title|e }}</h1>
+        <p>Posted on {{ post.date_added|date("m/d/Y") }}</p><br>
+        <p>{{ post.content|e|nl2br }}</p>
+    </article>
+{% endblock %}

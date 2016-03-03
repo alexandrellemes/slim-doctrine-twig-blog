@@ -1,0 +1,26 @@
+{
+    "name": "friesflorian/slim-doctrine-twig",
+    "description": " simple implementation of Slim3 with Doctrine and Twig",
+    "homepage": "http://github.com/FriesFlorian/Slim-Doctrine-Twig",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Florian Fries",
+            "email": "contact@florianfries.me",
+            "homepage": "http://florianfries.me/"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "App\\": "src"
+        }
+    },
+    "require": {
+        "php": ">=5.5.0",
+        "slim/slim": "^3.1",
+        "slim/php-view": "^2.0",
+        "monolog/monolog": "^1.17",
+        "slim/twig-view": "^2.0",
+        "doctrine/orm": "^2.5"
+    }
+}

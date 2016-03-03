@@ -1,0 +1,24 @@
+{% extends "layout.html.twig" %}
+
+{% block title %}Awesome blog{% endblock %}
+
+{% block body %}
+    <h1>Welcome on this Awesome Blog</h1>
+    <div>A simple implementation of Slim3 with Doctrine and Twig</div>
+
+    <h2>Latest posts</h2>
+    {% if blogs|length < 1  %}
+        <p>There's no posts yet!</p>
+    {% else %}
+        {% for post in blogs %}
+        	<article>
+        		<h3>{{ post.title|e }}</h2>
+        		<p>Posted on {{ post.date_added|date("m/d/Y") }}</p>
+        		<p><a href="{{ path_for('blog_item', {'id': post.id}) }}">Read more >>></a></p>
+    		</article>
+        {% endfor %}
+    {% endif %}
+
+    <h2>Add a new post</h2>
+    {% include "blog/inc/create.html.twig" %}
+{% endblock %}
