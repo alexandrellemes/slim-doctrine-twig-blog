@@ -8,6 +8,7 @@ Based on [slimphp/Slim-Skeleton](https://github.com/slimphp/Slim-Skeleton)
 
 - Clone this repository
 - Configure your database info in src/settings.php
+- Run `composer install`
 - Run `php vendor/bin/doctrine orm:schema-tool:update -f`
 - Run `cd public && php -S 127.0.0.1:8080`
 
