@@ -1,15 +1,16 @@
 # Slim-Doctrine-Twig
 
-This is blog that uses a simple implementation of Slim3 with Doctrine2 and Twig
+Esse blog foi implementado em Slim3, Doctrine 2 e Twig.
 
-Based on [slimphp/Slim-Skeleton](https://github.com/slimphp/Slim-Skeleton)
 
-## Install the Application
+Baseado no [slimphp/Slim-Skeleton](https://github.com/slimphp/Slim-Skeleton)
 
-- Clone this repository
-- Configure your database info in src/settings.php
-- Run `composer install`
-- Run `php vendor/bin/doctrine orm:schema-tool:update -f`
-- Run `cd public && php -S 127.0.0.1:8080`
+## Como instalar a aplicação
 
-That's it! Now go build something cool.
+- Clone este repositório
+- Configure a base de dados em src/settings.php
+- Execute `composer install`
+- Execute `php vendor/bin/doctrine orm:schema-tool:update -f`
+- Digite `cd public && php -S 127.0.0.1:8080`
+
+Aproveitem!!!
