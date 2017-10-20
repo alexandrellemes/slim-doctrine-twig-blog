@@ -26,7 +26,7 @@ return [
             'connection' => [
                 'driver'   => 'pdo_mysql',
                 'host'     => 'localhost',
-                'dbname'   => 'slim-doctrine-twig',
+                'dbname'   => 'slim_doctrine_twig',
                 'user'     => 'root',
                 'password' => 'r1o2o3t4',
             ]
