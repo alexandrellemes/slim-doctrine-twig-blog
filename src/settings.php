@@ -28,7 +28,7 @@ return [
                 'host'     => 'localhost',
                 'dbname'   => 'slim_doctrine_twig',
                 'user'     => 'root',
-                'password' => 'r1o2o3t4',
+                'password' => '',
             ]
         ]
     ],
